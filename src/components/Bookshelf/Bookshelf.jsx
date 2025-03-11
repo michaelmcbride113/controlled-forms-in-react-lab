@@ -36,7 +36,7 @@ return (
     </form>
   </div>
   <div className="bookCardsDiv" key="bookCards">{books.map((book, index) => (
-    <div>
+    <div class="bookCard">
         <p>{book.title}</p>
         <p> {book.author} </p>
     </div>
