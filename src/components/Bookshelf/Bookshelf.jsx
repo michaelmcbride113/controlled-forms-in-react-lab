@@ -6,7 +6,6 @@ const [books, setBooks] = useState([]);
 const [newBook, setNewBook] = useState({title: "", author: ""});
 
 const handleInputChange = (event) => {
-    // const { name, value } = event.target;
     setNewBook({ ...newBook, [event.target.name]: event.target.value });
 };
 const handleSubmit = (event) => {
