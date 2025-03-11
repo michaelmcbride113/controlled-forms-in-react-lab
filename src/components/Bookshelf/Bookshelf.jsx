@@ -35,7 +35,7 @@ return (
     <button type="submit">Submit your entry</button>
     </form>
   </div>
-  <div className="bookCardsDiv">{books.map((book, index) => (
+  <div className="bookCardsDiv" key="bookCards">{books.map((book, index) => (
     <div>
         <p>{book.title}</p>
         <p> {book.author} </p>

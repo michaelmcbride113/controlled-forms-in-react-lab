@@ -1,5 +1,5 @@
 import './App.css';
-import Bookshelf from '/Users/asd/code/ga/labs/controlled-forms-in-react-lab/src/components/Bookshelf/Bookshelf.jsx';
+import Bookshelf from '/src/components/Bookshelf/Bookshelf.jsx';
 
 const App = () => {
   return (
